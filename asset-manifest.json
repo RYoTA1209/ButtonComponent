@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/ButtonComponent/static/css/main.019f8218.css",
+    "main.js": "/ButtonComponent/static/js/main.9ec7cea8.js",
+    "static/js/847.e0d5c7c7.chunk.js": "/ButtonComponent/static/js/847.e0d5c7c7.chunk.js",
+    "static/js/787.577bc973.chunk.js": "/ButtonComponent/static/js/787.577bc973.chunk.js",
+    "static/js/252.57482d28.chunk.js": "/ButtonComponent/static/js/252.57482d28.chunk.js",
+    "index.html": "/ButtonComponent/index.html",
+    "main.019f8218.css.map": "/ButtonComponent/static/css/main.019f8218.css.map",
+    "main.9ec7cea8.js.map": "/ButtonComponent/static/js/main.9ec7cea8.js.map",
+    "847.e0d5c7c7.chunk.js.map": "/ButtonComponent/static/js/847.e0d5c7c7.chunk.js.map",
+    "787.577bc973.chunk.js.map": "/ButtonComponent/static/js/787.577bc973.chunk.js.map",
+    "252.57482d28.chunk.js.map": "/ButtonComponent/static/js/252.57482d28.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.019f8218.css",
+    "static/js/main.9ec7cea8.js"
+  ]
+}
