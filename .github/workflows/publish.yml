@@ -1,0 +1,26 @@
+  name: Publish
+  on:
+    push:
+      branches:
+        - main
+  jobs:
+    deploy:
+      runs-on: ubuntu-latest
+      steps:
+        - uses: actions/checkout@v1
+        - name: Setup Node.js
+          uses: actions/setup-node@v1
+          with:
+            node-version: '16.x'
+        - name: Build
+          run: |
+            yarn install
+            yarn run build
+        - name: Deploy
+          if: success()
+          uses: crazy-max/ghaction-github-pages@v1.2.5
+          with:
+            target_branch: gh_pages
+            buid_dir: build
+          env:
+            GITHUB_PAT: ${{ secrets.PAT_FOR_CD }}
