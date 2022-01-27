@@ -21,6 +21,6 @@
           uses: crazy-max/ghaction-github-pages@v1.2.5
           with:
             target_branch: gh_pages
-            buid_dir: build
+            build_dir: build
           env:
             GITHUB_PAT: ${{ secrets.PAT_FOR_CD }}
